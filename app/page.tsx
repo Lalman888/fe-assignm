@@ -1,6 +1,6 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2">Order Tracking</h3>
-            <p className="text-gray-600">Monitor all pizza orders from the moment they're placed until they're delivered.</p>
+            <p className="text-gray-600">Monitor all pizza orders from the moment they{"'"}re placed until they{"'"}re delivered.</p>
           </div>
           
           <div className="bg-white p-6 rounded-lg shadow-md">

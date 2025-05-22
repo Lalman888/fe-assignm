@@ -34,7 +34,7 @@ export default function DashboardPage() {
           Hello, {session?.user?.name?.split(" ")[0] || "Pizza Lover"}!
         </h1>
         <p className="text-muted-foreground">
-          Welcome to your Pizza Palace dashboard. Here's what's cooking today.
+          Welcome to your Pizza Palace dashboard. Here{"'"}s what{"'"}s cooking today.
         </p>
       </motion.div>
 
